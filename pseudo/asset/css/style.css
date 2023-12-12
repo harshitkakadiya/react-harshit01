@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+}
+nav a {
+    display: flex;
+}
+a:first-child {
+    color:red ;
+    background-color:yellow;
+}
+a:nth-last-of-type(2){
+    color:red ;
+    background-color:yellow;
+}
+input{
+    color:red ;
+    background-color:yellow;
+}
+h1:only-of-type{
+    color:red ;
+    background-color:yellow;
+}
+p:last-child{
+    color: red;
+    background-color: yellow;
+}
+h1:nth-last-child(21){
+    background-color: yellow;
+    color: red;
+}
+h1:nth-last-child(18){
+    background-color: yellow;
+    color: red;
+}
+h1:nth-last-child(11){
+    color: red;
+    background-color: yellow;
+}
+h1:nth-last-child(10){
+    color: red;
+    background-color: yellow;
+}
+h1:nth-child(22){
+    color: red;
+    background-color: yellow;
+}
+h1:nth-child(19){
+    color: red;
+    background-color: yellow;
+}
+div:nth-child(12) h1:first-child {
+    background-color: yellow;
+    color: red;
+}
+div:nth-child(12) h1:nth-child(2){
+    background-color: yellow;
+    color: red;
+}
+div:nth-last-child(2) h1:first-child {
+    background-color: yellow;
+    color: red;
+}
+div:nth-last-child(2) h1:last-child {
+    background-color: yellow;
+    color: red;
+}
+span:nth-last-child(1) h1:last-child {
+    background-color: yellow;
+    color: red;
+}
