@@ -1,0 +1,78 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	text-align: center;
+}
+.wrapper {
+	width: 1170px;
+	margin: 0 auto;
+}
+header {
+    height: 100px;
+    background: darkgray;
+    width: 100%;
+    position: fixed;
+}
+.logo {
+	width: 30%;
+	float: left;
+	line-height: 100px;
+}
+.logo a {
+	text-decoration: none;
+	font-size: 30px;
+	font-family: poppins;
+	color: #fff;
+	letter-spacing: 5px;
+}
+.logo a img {
+    width: 220px;
+}
+nav {
+	float: right;
+	line-height: 100px;
+}
+nav a {
+    text-decoration: none;
+    font-family: poppins;
+    letter-spacing: 1px;
+    font-size: 18px;
+    margin: 0 10px;
+    color: #020202;
+    text-transform: uppercase;
+}
+nav a:hover{
+    color: #fff;
+    transition: ease 0.6s;
+}
+.banner-area {
+    width: 100%;
+    height: 800px;
+    top: 100px;
+    background-image: url(../images/banner.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+}
+.banner-area h2 {
+    padding-top: 350px;
+    font-size: 70px;
+    font-family: poppins;
+    text-transform: uppercase;
+    color: #000;
+}
+.content-area h2 {
+    font-family: poppins;
+    letter-spacing: 2px;
+    padding-top: 30px;
+    text-transform: uppercase;
+    font-size: 40px;
+    margin: 0;
+}
+.content-area p {
+	padding: 2% 0px;
+	font-family: poppins;
+	line-height: 30px;
+}
