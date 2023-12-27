@@ -1,31 +1,46 @@
 body{
     margin: 0;
 }
-.full_body {
+/* .full_body {
 	background-image: url(../image/bg.jpg);
 	height: 950px;
 	background-size: cover;
 	background-position: bottom;
+} */
+.out-img{   
+    text-align: center;
+    animation: out-img 5s infinite;
+}
+.out-img img{
+    width: 500px;
+}
+.full_body {
+    background-image: url(../image/gif.gif);
+    height: 950px;
+    background-size: cover;
+    background-position: bottom;
 }
 .stump {
-	position: absolute;
-	width: 100px;
-	height: 250px;
-	background-image: url(../image/stamp_01.png);
-	bottom: 20px;
-	right: 0;
-	background-size: cover;
-	animation: out 5s infinite;
+    position: absolute;
+    width: 100px;
+    height: 250px;
+    background-image: url(../image/stamp_01.png);
+    bottom: 20px;
+    right: 0;
+    background-size: cover;
+    animation: out 5s infinite;
+    animation-timing-function: linear;
 }
 .ball {
-	position: absolute;
-	width: 60px;
-	height: 60px;
-	left: -10%;
-	bottom: 20%;
-	background-image: url(../image/ball.png);
-	background-size: cover;
-	animation: bolling 5s infinite;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: -10%;
+    bottom: 20%;
+    background-image: url(../image/ball.png);
+    background-size: cover;
+    animation: bolling 5s infinite;
+    animation-timing-function: linear;
 }
   @keyframes bolling {
     0%{
@@ -47,7 +62,19 @@ body{
     90%{
       background-image: url(../image/stamp_01.png);
     }
-    95%{
+    100%{
       background-image: url(../image/stamp_02.png);
+        
     }
+}
+@keyframes out-img {
+        0%{
+         display: none;
+        }
+        90%{
+            display: none;
+        }
+        100%{
+            display: block;
+        }
   }
