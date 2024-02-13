@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form-04</title>
+</head>
+<style>
+    body{
+        background-color: #d3d3d3;
+    }
+    fieldset {
+	border: none;
+    background-color: #fff;
+}
+</style>
+<body>
+    <form style="width: 250px; border: none;">
+        <fieldset>
+        <h1 style=”text-align:centre”>Sign up</h1>
+        <label>Name:</label>  <br>
+        <input type = "text" placeholder="full name"  required>
+        <br>
+        <br>
+        <label>email:</label> <br>
+        <input type = "email" placeholder="gmail id:" required>
+        <br>
+        <br>
+        <label>Password:</label><br>
+        <input type = "password" placeholder="8 characters" required>
+        <br>
+        <br>
+        <label>Confirm Password:</label><br>
+        <input type = "password" placeholder="8 characters" required>
+        <br>
+        <br>
+        <label>Date Of Birth:</label><br>
+        <input type="date">
+        <br>
+        <br>
+        <label>Gender:</label><br>
+        <input type="radio" name="gender" required>
+        <label for="">Male</label>
+        <input type="radio" name="gender">
+        <label for="">Female</label>
+        <input type="radio" name="gender">
+        <label for="">Other</label>
+        <br>
+        <br>
+        <label>Insert your photo:</label><br>
+        <input type="file">
+        <br>
+        <br>
+        <label>Insert your resume:</label><br>
+        <input type="file">
+        <br>
+        <br>
+        Security Question: <br>
+        <select name = "security-question">
+        <option>Select</option>
+        <option>Select</option>
+        <option>Select</option>
+        <option>Select</option>
+        </select>
+        <br>
+        <textarea  rows = "5" cols = "30"></textarea>
+        <br>
+        <br>
+        <input type = "checkbox" required>I agree terms and conditions
+        <br>
+        <input type="Submit" value="Register">
+    </fieldset>
+        </form>
+</body>
+</html>

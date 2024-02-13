@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&display=swap');
+
+body{
+  font-family: "Jost", sans-serif;
+  }
+  .container{
+    max-width: 1230px;
+  }
+nav {
+    background-color: #f2f2f2;
+}
+.breadcrumb li{
+  position: relative;
+}
+.breadcrumb-item+.breadcrumb-item.icon::before {
+  background-image: url(../image/icon01.png);
+  background-repeat: no-repeat;
+  height: 18px;
+  width: 20px;
+  top: 4px;
+  bottom: 0;
+  position: absolute;
+  left: 12px;
+}
+li.breadcrumb-item.icon {
+  padding-left: 40px;
+}
+li.breadcrumb-item.icon.active {
+  padding: 0;
+}
+.breadcrumb-item+.breadcrumb-item.icon.icon2::before {
+  background-image: url(../image/period.png);
+  background-repeat: no-repeat;
+  height: 20px;
+  width: 20px;
+  top: -3px;
+  position: absolute;
+  left: -2px;
+}
+li.breadcrumb-item.icon.icon2 {
+  padding-left: 28px;
+}
+li.breadcrumb-item.icon.icon2.active {
+  padding: 0;
+}

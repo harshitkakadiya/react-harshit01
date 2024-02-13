@@ -1,0 +1,63 @@
+/* Media Queries */
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media (max-width: 1200px) {
+  
+}
+
+ /* Large devices (laptops/desktops, 992px and up) */
+
+@media(max-width: 992px) {
+    .solution-text {
+        text-align: center;
+        max-width: 100%;
+    }
+    .solution-image {
+        text-align: center;
+        margin: 0 auto;
+    }
+    .solution-image img {
+        max-width: 700px;
+        margin-top: 50px;
+    }
+    .banner {
+        padding: 150px 0px;
+        height: 1065px;
+    }
+}
+
+ /* Medium devices (landscape tablets, 768px and up) */
+
+@media (max-width: 768px) {
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media (max-width: 576) {
+
+}
+
+/* Extra small devices (phones, 320px and down) */
+
+
+@media (max-width: 320px) {
+
+}
+
+
+
+
+
+  
+/*
+
+    320px — 480px: Mobile devices.
+    481px — 768px: iPads, Tablets.
+    769px — 1024px: Small screens, laptops.
+    1025px — 1200px: Desktops, large screens.
+    1201px and more — Extra large screens, TV.
+
+*/
