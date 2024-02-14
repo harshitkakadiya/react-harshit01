@@ -229,3 +229,55 @@ body {
 }
 /* OPTION_3_CSS_END 
 *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*/
+
+
+/* OPTION_4_CSS_START */
+.bg_4 {
+    background-color: #95bbea;
+    padding: 280px;
+}
+.option_4 {
+    background-color: white;
+    height: 220px;
+    position: relative;
+}
+.p_text {
+    position: absolute;
+    top: 50px;
+    bottom: 0px;
+    left: 180px;
+}
+.p_text p {
+    font-size: 20px;
+    text-align: left;
+    font-weight: 500;
+    background-color: #97d2e9;
+    padding: 30px;
+    display: inline-block;
+}
+.option_4:after {
+    content: '';
+    position: absolute;
+    left: -430px;
+    right: 0px;
+    top: 90px;
+    margin: 0 auto;
+    width: 0;
+    height: 0;
+    border-top: 30px solid #97d2e9;
+    border-left: 30px solid transparent;
+}
+.option_4::before {
+    content: '';
+    position: absolute;
+    background-image: url(https://png.pngitem.com/pimgs/s/464-4644415_employee-clipart-testimonial-illustration-hd-png-download.png);
+    left: 20px;
+    right: 590px;
+    top: -50px;
+    margin: 0 auto;
+    width: 280px;
+    height: 280px;
+    text-align: center;
+}
+/* OPTION_2_CSS_END 
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*/
