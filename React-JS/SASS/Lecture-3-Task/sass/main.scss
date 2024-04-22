@@ -1,0 +1,24 @@
+/* @use Method */
+// @use 'index.scss';
+
+/* @import Method */
+
+@import "variables.scss";
+
+
+
+.maindiv{
+    text-align:$align-c;
+}
+.mainbox{
+    display:$flex;
+    
+}
+.box{
+    height:$h-3;
+    width: $w-4;
+    text-align:$align-c;
+}
+
+
+

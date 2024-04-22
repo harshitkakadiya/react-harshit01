@@ -1,0 +1,28 @@
+@media (max-width: 1200px) {
+
+
+}
+
+
+@media (max-width:993px) {
+   
+}
+
+@media (max-width: 768px) {
+    .feature-item-2.d-flex.align-items-start {
+        margin-bottom: 20px;
+    }
+    
+} 
+
+@media (max-width: 576px) {
+    header {
+        height: 450px;
+    }
+    .feature-item-2{
+        margin-bottom: 15px;
+    }
+    .collection-thumb img {
+        width: 136%;
+    }
+}

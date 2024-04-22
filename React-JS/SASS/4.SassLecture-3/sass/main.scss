@@ -1,0 +1,170 @@
+/* @use Method */
+@use 'index.scss';
+
+/* @import Method */
+
+@use 'variables.scss' as *;
+
+/* Mixin Import */
+
+@import '@mixin';
+
+
+/* @root */
+
+// $color-1:red;
+// $color-2:green;
+
+
+/* Interpolation Method */
+
+
+
+
+/* Sass Variables */
+
+// .maindiv{
+//     height:$h-5+px;
+//     width:$w-5+px;
+//     background-color:$color-1;
+// }
+
+
+/* Sass Nesting Method */
+
+
+/* Reguler Approch in Css */
+
+// header{
+//     display: flex;
+//     align-items: center;
+//     justify-content: space-between;
+//     padding: 10px;
+//     background-color: slategray;
+//     margin: 0px 20px;
+// }
+
+// .navbar nav ul {
+//     display: flex;
+//     list-style-type: none;
+// }
+
+// .navbar nav ul li{
+//     margin-left: 50px;
+// }
+
+// .navbar nav ul li a{
+//     text-decoration: none;
+//     color:white;
+//     font-size: 18px;
+//     font-weight: bolder;
+// }
+
+
+/* Nesting Approch */
+
+// header{
+//     display: flex;
+//     align-items: center;
+//     justify-content: space-between;
+//     padding: 10px;
+//     background-color: slategray;
+//     margin: 0px 20px;
+//     .navbar nav ul {
+//         display: flex;
+//         list-style-type: none;
+//         li{
+//             margin-left: 50px;
+//             a{
+//                 text-decoration: none;
+//                 color:white;
+//                 font-size: 18px;
+//                 font-weight: bolder;
+//                 &:hover{
+//                     color:black;
+//                 }
+//             }
+//         }
+//     }
+// }
+
+/* @at-root Method */
+
+
+// header{
+//     display: flex;
+//     align-items: center;
+//     justify-content: space-between;
+//     padding: 10px;
+//     background-color: slategray;
+//     margin: 0px 20px;
+//     @at-root
+//     .navbar nav ul {
+//         display: flex;
+//         list-style-type: none;
+//         @at-root
+//         li{
+//             margin-left: 50px;
+//             @at-root
+//             a{
+//                 text-decoration: none;
+//                 color:white;
+//                 font-size: 18px;
+//                 font-weight: bolder;
+//                 @at-root
+//                 &:hover{
+//                     color:black;
+//                 }
+//             }
+//         }
+//     }
+// }
+
+/* @mixin Method */
+
+header{
+   @include flex-container{
+    border:5px solid black;
+   };
+    .navbar nav ul {
+    @include list;
+        li{
+        @include list-space;
+            a{
+            @include link;
+                &:hover{
+                    color:black;
+                }
+            }
+        }
+    }
+}
+
+.maindiv{
+    @include flex-container($justify-space:space-evenly);
+}
+
+.maindiv1{
+    @include flex-container($justify-space:space-evenly);
+}
+
+/* @Extend Method */
+
+%flex-contrainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+    background-color: purple;
+    margin: 0px 20px;
+}
+
+
+.maindiv{
+    @extend %flex-contrainer;
+}
+.maindiv1{
+    @extend %flex-contrainer;
+}
+
+

@@ -1,8 +1,7 @@
-
-
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&display=swap');
 body{
-    margin-bottom: 2rem;
-
+    font-family: "Josefin Sans", sans-serif;
 }
 
 /* Shofy start */
@@ -10,18 +9,125 @@ body{
 a{
     text-decoration: none;
 }
-header{
+/* header{
     background-image: url('../image/img-1.jpeg');
     height: 900px;
     background-size: cover;
     background-position: right
     ;
-}
+} */
 .border-bottom{
     border-color:rgba(162, 162, 162, 0.443) !important;
 }
-  
-  /* Product Collection */
+.tp-slider-content-3 > span {
+	font-weight: 400;
+	font-size: 30px;
+	color: white;
+	display: inline-block;
+	margin-bottom: 8px;
+    font-family: "Charm", cursive;
+}
+.carousel-caption {
+	position: absolute;
+	right: 0;
+	bottom: 50%;
+	left: 10%;
+	/* padding-top: 1.25rem; */
+	/* padding-bottom: 1.25rem; */
+	color: #fff;
+	text-align: left;
+	top: 20%;
+	max-width: 40%;
+}
+.tp-slider-title-3 {
+	font-weight: 400;
+	font-size: 100px;
+	line-height: 1.06;
+	margin-bottom: 22px;
+	color: #fff;
+}
+.tp-slider-feature-item-3:not(:last-child) {
+	margin-right: 28px;
+	padding-right: 30px;
+}
+.tp-slider-feature-item-3 {
+	position: relative;
+}
+.tp-slider-feature-icon-3 span {
+	font-size: 35px;
+	color: white;
+	margin-right: 14px;
+}
+.tp-slider-feature-title-3 {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.25;
+	color:white;
+	margin-top: 10px;
+}
+.tp-slider-feature-item-3:not(:last-child)::after {
+	position: absolute;
+	content: "";
+	right: 0;
+	width: 1px;
+	height: 100%;
+	top: 2%;
+	background-color: rgba(255, 255, 255, 0.2);
+}
+.tp-btn.tp-btn-border.tp-btn-border-white {
+	text-decoration: none;
+	color: white;
+	border: 1px solid white;
+	padding: 13px 20px;
+    transition: 0.3s;
+}
+.tp-btn.tp-btn-border.tp-btn-border-white:hover {
+	color: white;
+	border: 1px solid rgb(16, 16, 16);
+	background-color: rgb(16, 16, 16);
+}
+.mb-30 {
+	margin-bottom: 50px;
+}
+
+/* navbar start */
+.nav-item a {
+	color: #000;
+    font-size: 16px;
+}
+.home-menu-title {
+	font-size: 20px;
+	font-weight: 400;
+	margin-bottom: 0;
+}
+.dropdown-item img {
+	width: 160px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+} 
+ .navbar-expand-lg .navbar-nav .dropdown-menu {
+	position: absolute;
+	left: -150%;
+}
+.dropdown-menu li {
+    list-style: none;
+}
+.dropdown-toggle::after {
+    content: "\f107";
+	-webkit-transform: translateY(1px);
+	-moz-transform: translateY(1px);
+	-ms-transform: translateY(1px);
+	-o-transform: translateY(1px);
+	transform: translateY(1px);
+	font-size: 14px;
+	color: var(--tp-common-black);
+	font-family: var(--tp-ff-fontawesome);
+	font-weight: 400;
+	margin-left: 5px;
+	display: inline-block;
+}
+/* navbar end */
+
+/* Product Collection */
   
 .product-col{
     margin-top: 100px;

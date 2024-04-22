@@ -1,0 +1,10 @@
+/* @use Method */
+/* @import */
+/* @forward Method */
+/* @import Method */
+.maindiv {
+  height: 600pxpx;
+  width: 500pxpx;
+  background-color: red;
+  text-align: center;
+}/*# sourceMappingURL=main.css.map */

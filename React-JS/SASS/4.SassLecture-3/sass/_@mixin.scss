@@ -1,0 +1,28 @@
+@mixin flex-container($justify-space:space-between){
+    display: flex;
+    align-items: center;
+    justify-content: $justify-space;
+    padding: 10px;
+    background-color: purple;
+    margin: 0px 20px;
+    @content;
+}
+
+@mixin list{
+    display: flex;
+    list-style-type: none;
+}
+
+@mixin list-space{
+    margin-left: 50px;
+}
+
+@mixin link{
+    text-decoration: none;
+    color:white;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+/* @content Method */
+
