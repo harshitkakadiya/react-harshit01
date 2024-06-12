@@ -1,0 +1,9 @@
+JavaScript Projects:
+
+1. Simple calculator
+2. Digital clock
+3. Word Counter
+4. Random String Generator
+5. Vowel character counter
+6. Stop Watch
+7. Budget App
